@@ -50,3 +50,4 @@ class FuncionarioModel extends Model
         $dao->delete( (int) $id);
         header("Location: /funcionario");
     }
+}
